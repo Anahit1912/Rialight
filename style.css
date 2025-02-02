@@ -824,19 +824,21 @@ nav {
     display: none;
 }
 .slider_buttons button {
-    background-size: cover;
+    background: #C19A6B;
+    color: white;
     width: 179px;
     height: 64px;
     border: none;
     border-radius: 123px;
-    padding: 0px;
+    font-size: 30px;
+}
+.reviews .slider_buttons button{
+    color: #000000;
 }
 .show-mobawl {
-    background-image: url("images/Frame 3265.png");
-    margin-left: 7px;
+  margin-left: 7px;
 }
 .show-mobawr {
-    background-image: url("images/Frame 3264.png");
     margin-right: 7px;
 }
 .topnav {
@@ -1483,13 +1485,18 @@ footer {
         margin-top: 5px;
         display: none;
     }
-   
-
-    #myLinks h6 {
+   #myLinks h6 {
         margin: 0px 0px 7px 0px;
     }
 
     #myLinks .center-footer {
         margin-top: 30px;
+    }
+    .phone-scroll img{
+        width: 60px;
+        height: 60px;
+    }
+     .slider-img {
+       height: 100%;
     }
 }
