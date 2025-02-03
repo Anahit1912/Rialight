@@ -1607,7 +1607,7 @@ footer {
         display: block !important;
         margin-top: 30px;
         display: flex !important;
-        justify-content: center;
+        justify-content: space-evenly;
         padding: 0px 15px;
     }
 
