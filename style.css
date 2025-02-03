@@ -606,12 +606,17 @@ nav {
 .tablet {
     display: block;
 }
-
+.show-img img, .hide-img img{
+    width: 100%;
+    height:100%;
+}
 @media only screen and (max-width: 520px) {
     .logo {
         display: none;
     }
-
+    .container2 {
+        padding: 0 15px;
+    } 
     .testimonials .price-plan .plan-text,
     .hide-mobile {
         display: none;
@@ -668,10 +673,11 @@ nav {
     .consultation-button button:nth-child(2) {
         margin-top: 10px;
         width:100% !important;
-
+        padding: 24px;
     }
     .consultation-item button {
         width:100% !important;
+        padding: 24px;
     }
     .consultation-button button:nth-child(1) {
         width:100% !important;
@@ -790,7 +796,7 @@ nav {
     }
 
     .hide-img {
-        display: none;
+       display: none;
     }
 
     .show-img {
@@ -801,7 +807,7 @@ nav {
     .show-img img {
         width: 100%;
     }
-
+    
     .slider_buttons {
         display: block !important;
         margin-top: 30px;
@@ -832,9 +838,7 @@ nav {
     border-radius: 123px;
     font-size: 30px;
 }
-.reviews .slider_buttons button{
-    color: #000000;
-}
+
 .show-mobawl {
   margin-left: 7px;
 }
@@ -1288,7 +1292,7 @@ footer {
     padding-top: 15px;
 }
 
-.center-footer h6 {
+.center-footer h5 {
     font-size: 18px;
     font-weight: 700;
     color: #FFFFFF;
@@ -1485,7 +1489,7 @@ footer {
         margin-top: 5px;
         display: none;
     }
-   #myLinks h6 {
+   #myLinks h5 {
         margin: 0px 0px 7px 0px;
     }
 
@@ -1496,7 +1500,7 @@ footer {
         width: 60px;
         height: 60px;
     }
-     .slider-img {
+    .w-1920 .slider-img {
        height: 100%;
     }
 }
