@@ -1609,8 +1609,13 @@ footer {
         display: flex !important;
         justify-content: space-evenly;
         padding: 0px 15px;
+        
     }
-
+    .slider_buttons button{
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        appearance:         none;
+     }
     .awards .left-arrow,
     .awards .right-arrow {
         display: none;
